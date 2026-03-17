@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Greek Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-section" class="default-bg">
+            <div id="word-wrapper">
+                <h1 id="greek-word">...</h1>
+                <div id="pos-hint" class="hint hidden">adv</div>
+                <div id="len-hint" class="hint hidden"></div>
+            </div>
+        </div>
+
+        <div id="input-band">
+            <span id="hint-bulb">💡</span>
+            <input type="text" id="answer-input" placeholder="Type meaning..." autocomplete="off">
+            <button id="submit-btn">➔</button>
+        </div>
+
+        <div id="info-section">
+            <p id="feedback-text1" class="feedback-text"></p>
+            <p id="feedback-text2" class="feedback-text"></p>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
