@@ -1,6 +1,5 @@
-//ΙΛΙΑΔΟΣ Ε (Iliad Book V) lines 1–54
+//ΙΛΙΑΔΟΣ Ε (Iliad Book V) lines 1–58
 //    { word: "", answers: ["",""], pos: "", len: ""},
-
 
 const vocabData = [
     { word: "αὖ", answers: ["again", "in turn", "moreover"], pos: "adv" },
@@ -45,11 +44,5 @@ const vocabData = [
     { word: "μετάφρενον", answers: ["upper back","broad of the back"], pos: "n", gen: "n", len: "ᾰ"}
 ];//Thru end line 58: 40 words.
 
-//notes are to be collocated with the answers if and only if the lengths match.
-
 //ᾱ ῡ ᾰ, ῐ, ῠ
-//For the next file:
-//    { word: "δαίδαλος", answers: ["",""], pos: "", len: ""},
-//    { word: "ἔξοχος", answers: ["",""], pos: "", len: ""},
-//    { word: "τεκταίνομαι", answers: ["",""], pos: "", len: ""},
-
+//notes are to be collocated with the answers if and only if the lengths match.
