@@ -1,4 +1,4 @@
-//ΙΛΙΑΔΟΣ Ε (Iliad Book V) lines 59-94
+//ΙΛΙΑΔΟΣ Ε (Iliad Book V) lines 95-132
 //    { word: "", answers: ["",""], pos: "", len: ""},
 
 const vocabData3 = [
@@ -19,11 +19,29 @@ const vocabData3 = [
     { word: "κέντωρ", answers: ["goader","driver"], pos: "n", gen: "m"},
     { word: "δηθά", answers: ["for a long time"], pos: "adv", len: "ᾰ", notes: "apocopaic δήθ’"},
     { word: "ἐτεός", answers: ["true","real","genuine","truly"], pos: "adj"},
-    { word: "ἀπόρνυμαι", answers: ["set forth"], pos: "v", len: "ᾰῠ"}
+    { word: "ἀπόρνυμαι", answers: ["set forth"], pos: "v", len: "ᾰῠ"},
+    { word: "πέπων", answers: ["ripe","softened","good","sweet","kind","weak","cowardly"], pos: "adj"},
+    { word: "διαμπερής", answers: ["piercing"], pos: "adj", len: "ῐᾰ"},
+    { word: "ἐξερύω", answers: ["draw up","draw out","drag up","drag out"], pos: "v", len: "ῠ"},
+    { word: "ἀνακοντίζω", answers: ["shoot up","dart up","shoot","dart"], pos: "v", len: "ᾰᾰῐ"},
+    { word: "στρεπτός", answers: ["flexible","pliant","bent","collar","necklace"], pos: "adj"},
+    { word: "ἀράομαι", answers: ["pray","vow"], pos: "v", len: "ᾰᾰ"},
+    { word: "κλύω", answers: ["hear","listen"], pos: "v", len: "ῠ"},
+    { word: "αἰγίοχος", answers: ["aegis-bearing"], pos: "adj", len: "ῐ"},
+    { word: "δήϊος", answers: ["hostile","destructive","burning","consuming","unhappy","wretched"], pos: "adj", len: "ῐ"},
+    { word: "φθάνω", answers: ["act first","come first","be first","do first","overtake","anticipate"], pos: "v", len: "ᾰ"},
+    { word: "δηρός", answers: ["long","too long"], pos: "adj"},
+    { word: "γυῖον", answers: ["limb","limbs","hand","body"], pos: "n", notes: '"limbs" in plural'},
+    { word: "ἐλαφρός", answers: ["light","lightweight"], pos: "adj", len: "ᾰ"},
+    { word: "ἀγχοῦ", answers: ["near","nearby"], pos: "adv", len: "ᾰ"},
+    { word: "ἄτρομος", answers: ["intrepid","dauntless","fearless"], pos: "adj", len: "ᾰ", notes: 'τρομέω "to tremble, to fear"'},
+    { word: "σακέσπαλος", answers: ["wielding a shield"], pos: "adj", len: "ᾰᾰ", notes: 'τὸ σάκος "shield" + πάλλω "to poise, brandish"'},
+    { word: "πειράω", answers: ["try"], pos: "v", len: "ᾰ", notes: "active and middle"}
 ];
 
 vocabData = vocabData3;
 
 //ᾱῑῡ ᾰ, ῐ, ῠ
+//a᷌
 //notes are to be collocated with the answers if and only if the lengths match.
 //Do the be/am thing sometime
