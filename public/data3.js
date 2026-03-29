@@ -31,11 +31,11 @@ const vocabData3 = [
     { word: "δήϊος", answers: ["hostile","destructive","burning","consuming","unhappy","wretched"], pos: "adj", len: "ῐ"},
     { word: "φθάνω", answers: ["act first","come first","be first","do first","overtake","anticipate"], pos: "v", len: "ᾰ"},
     { word: "δηρός", answers: ["long","too long"], pos: "adj"},
-    { word: "γυῖον", answers: ["limb","limbs","hand","body"], pos: "n", notes: '"limbs" in plural'},
+    { word: "γυῖον", answers: ["limb","limbs","hand","body"], pos: "n", gen: "n", notes: '"limbs" in plural'},
     { word: "ἐλαφρός", answers: ["light","lightweight"], pos: "adj", len: "ᾰ"},
     { word: "ἀγχοῦ", answers: ["near","nearby"], pos: "adv", len: "ᾰ"},
     { word: "ἄτρομος", answers: ["intrepid","dauntless","fearless"], pos: "adj", len: "ᾰ", notes: 'τρομέω "to tremble, to fear"'},
-    { word: "σακέσπαλος", answers: ["wielding a shield"], pos: "adj", len: "ᾰᾰ", notes: 'τὸ σάκος "shield" + πάλλω "to poise, brandish"'},
+    { word: "σακέσπαλος", answers: ["wielding a shield","shield-wielding"], pos: "adj", len: "ᾰᾰ", notes: 'τὸ σάκος "shield" + πάλλω "to poise, brandish"'},
     { word: "πειράω", answers: ["try"], pos: "v", len: "ᾰ", notes: "active and middle"}
 ];
 

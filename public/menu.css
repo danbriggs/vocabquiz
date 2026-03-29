@@ -1,10 +1,19 @@
 body {
-    background-color: #f0f7f4; /* Pastel Mint */
+    /*background-color: #f0f7f4; /* Pastel Mint */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    
+    background: 
+        linear-gradient(rgba(240, 247, 244, 0.6), rgba(240, 247, 244, 0.6)),
+        url("shield-of-achilles.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;  /* Centers it */
+    background-size: contain;     /* Ensures the whole shield fits without cropping */
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
