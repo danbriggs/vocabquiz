@@ -1,7 +1,7 @@
 //ΙΛΙΑΔΟΣ Ε (Iliad Book V) lines 59-94
 //    { word: "", answers: ["",""], pos: "", len: ""},
 
-const vocabData = [
+const vocabData2 = [
     { word: "δαίδαλος", answers: ["cunningly wrought","curiously wrought"], pos: "adj", len: "ᾰ"},
     { word: "ἔξοχος", answers: ["prominent","eminent","standing out","jutting","jutting out"], pos: "adj"},
     { word: "τεκταίνομαι", answers: ["make","work","frame","devise","contrive"], pos: "v"},
@@ -38,7 +38,9 @@ const vocabData = [
     { word: "αἰζηός", answers: ["vigorous","strong"], pos: "adj"},
     { word: "πυκινός", answers: ["thick","dense","close","compact","close-set","shrewd","wise","sagacious"], pos: "adj", len: "ῠῐ"},
     { word: "μίμνω", answers: ["stay","wait","stand fast","tarry","remain"], pos: "v", len: "ῐ"}
-]
+];
+
+vocabData = vocabData2;
 
 //ᾱῑῡ ᾰ, ῐ, ῠ
 //θείνω - ἔπεφνε

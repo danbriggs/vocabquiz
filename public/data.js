@@ -1,7 +1,7 @@
 //ΙΛΙΑΔΟΣ Ε (Iliad Book V) lines 1–58
 //    { word: "", answers: ["",""], pos: "", len: ""},
 
-const vocabData = [
+const vocabData1 = [
     { word: "αὖ", answers: ["again", "in turn", "moreover"], pos: "adv" },
     { word: "μένος", answers: ["mind", "desire", "anger", "courage"], pos: "n", gen: "n" },
     { word: "ἄρνυμαι", answers: ["get", "win", "take up", "carry"], pos: "v", len: "ᾰῠ"},
@@ -43,6 +43,8 @@ const vocabData = [
     { word: "καίνυμαι", answers: ["surpass","overcome","excel"], pos: "v", len: "ῠ"},
     { word: "μετάφρενον", answers: ["upper back","broad of the back"], pos: "n", gen: "n", len: "ᾰ"}
 ];//Thru end line 58: 40 words.
+
+vocabData = vocabData1;
 
 //ᾱ ῡ ᾰ, ῐ, ῠ
 //notes are to be collocated with the answers if and only if the lengths match.

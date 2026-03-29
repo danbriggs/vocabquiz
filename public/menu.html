@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation Menu</title>
+    <title>Vocab Quizzes</title>
     <link rel="stylesheet" href="menu.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -12,13 +13,42 @@
         <a href="1.html" class="nav-card">
             <span class="main-char">Ε</span>
             <span class="sub-text">1–58</span>
+            <span class="sub-text" id="1"></span>
         </a>
 
         <a href="2.html" class="nav-card">
             <span class="main-char">Ε</span>
             <span class="sub-text">59–94</span>
+            <span class="sub-text" id="2"></span>
         </a>
+
+        <a href="3.html" class="nav-card">
+            <span class="main-char">Ε</span>
+            <span class="sub-text">95–105</span>
+            <span class="sub-text" id="3"></span>
+        </a>
+
     </div>
+
+<script src="data.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("1").innerText = vocabData1.length + " words";
+	//console.log("this happened");
+	});
+</script>
+
+<script src="data2.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("2").innerText = vocabData2.length + " words";});
+</script>
+
+<script src="data3.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("3").innerText = vocabData3.length + " words";});
+</script>
 
 </body>
 </html>
