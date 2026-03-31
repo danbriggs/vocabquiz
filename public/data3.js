@@ -7,7 +7,7 @@ const vocabData3 = [
     { word: "αἶψα", answers: ["quickly","quick","with speed","all of a sudden"], pos: "adv", len: "ᾰ"},
     { word: "τιταίνω", answers: ["stretch","bend","exert"], pos: "v", len: "ῐ"},
     { word: "καμπύλος", answers: ["bent","curved"], pos: "adj", len: "ᾰῠ"},
-    { word: "ἐπαΐσσω", answers: ["rush at","dart at","spring upon","assail"], pos: "v", len: "ᾱῑ"},
+    { word: "ἐπαΐσσω", answers: ["rush at","dart at","rush","dart","spring upon","assail"], pos: "v", len: "ᾱῑ"},
     { word: "τυγχάνω", answers: ["happen","occur","happen to do","hit","meet","attain"], pos: "v", len: "ῠᾰ", notes:["dat","dat","part","gen","gen","gen"]},
     { word: "γύαλον", answers: ["hollow"], pos: "n", gen: "n", len: "ῠᾰ"},
     { word: "πέτομαι", answers: ["fly","dart","rush"], pos: "v"},

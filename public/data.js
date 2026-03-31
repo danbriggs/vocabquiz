@@ -25,7 +25,7 @@ const vocabData1 = [
     { word: "τειχεσιπλήτης", answers: ["approacher of walls","stormer of cities"], pos: "n", gen: "m", len: "ῐ"},
     { word: "ἐάω", answers: ["permit","allow","let","grant","cede","yield"], pos: "v", len: "ᾰ"},
     { word: "μάρναμαι", answers: ["fight","battle","contend","strive"], pos: "v", len: "ᾰᾰ"},
-    { word: "ὁππότερος", answers: ["whichever of two","either of two"], pos: "pron"},
+    { word: "ὁππότερος", answers: ["whichever of two","either of two","whichever","either"], pos: "pron"},
     { word: "ὀρέγω", answers: ["reach","stretch","stretch out","hold out","give","hand"], pos: "v"},
     { word: "νῶϊ", answers: ["we two","us two"], pos: "pron", len: "ῐ"},
     { word: "ἀλέομαι", answers: ["shun","avoid","flee from"], pos: "v", len: "ᾰ"},
